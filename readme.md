@@ -20,3 +20,23 @@ Integration and Testing:
 
 Integration: Once the model performs well on test data, integrate it into a functional system where users can input sentences and receive POS-tagged output.
 Testing: Test the system with various sentences to ensure accurate POS tagging across different contexts.
+
+
+Steps to Set Up and Run the Project
+Navigate to the project directory:
+
+bash
+cd path/to/POS
+Set up a virtual environment (optional but recommended):
+
+bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+Install the required packages:
+
+bash
+pip install -r requirements.txt
+Run the main script:
+
+bash
+python main.py
